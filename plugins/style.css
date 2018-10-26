@@ -1,9 +1,9 @@
-@import url(https://enhanceddiscord.com/theme.css);
+<link rel='stylesheet' href='https://enhanceddiscord.com/theme.css'>
 
 /* theme settings */
 :root {
     /* background for the entire window. Almost everything is transparent to this image. */
-    --bg: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Beautiful-Mountain-in-Night-Wallpapers-HD-Pictures.jpg);
+    --bg: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Beautiful-Mountain-in-Night-Wallpapers-HD-Pictures.jpg) 100% 0 no-repeat; background-size: 100% 100%;
     --bg-overlay: rgba(0, 0, 0, 0.8); /* overlay for the background. Generally, this should darken the picture to make text more readable. */
     --accent-color: #900; /* color of buttons, misc. text, etc. */
     --mention-color: #f00; /* color of mention text */
